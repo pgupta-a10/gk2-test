@@ -21,6 +21,7 @@ print len(msg_id_list)
 
 
 latest_email_id = msg_id_list[-1]
+print latest_email_id
 result,data = conn.fetch(latest_email_id,"(RFC822)")
 raw_email = data[0][1]
 
