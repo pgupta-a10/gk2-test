@@ -1,7 +1,7 @@
 import imaplib
 from email.parser import Parser
 
-url = "webmail.a10networks.com"
+url = "mailserver.com"
 conn = imaplib.IMAP4_SSL(url,993)
 user,password = ('pgupta',<pswd>)
 conn.login(user,password)
